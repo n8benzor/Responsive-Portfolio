@@ -396,7 +396,7 @@ ul {
   
   #logo {
     float: left;
-    width: 250px;
+    width: auto;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -406,20 +406,24 @@ ul {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
   }
   
   nav {
     float: right;
     margin-top: 25px;
+    margin-right: 20px;
   }
   #main-container {
-    padding-top: 130px;
+    padding-top: 150px;
     min-height: calc(100vh - 70px);
   }
   
   .main-section {
     float: left;
-    width: 100%;
+    width: 700px;
     max-width: 980px;
     padding: 30px;
     margin: 0 0 40px;
